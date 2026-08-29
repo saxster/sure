@@ -1,6 +1,8 @@
 name: Helm Publish
 
 on:
+  push:
+    branches: [main]
   workflow_call:
     inputs:
       chart_version:
