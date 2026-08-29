@@ -1,11 +1,6 @@
 name: Chart CI
 
 on:
-  pull_request:
-    paths:
-      - 'charts/**'
-      - 'config/initializers/version.rb'
-      - '.github/workflows/chart-ci.yml'
   push:
     branches:
       - main
